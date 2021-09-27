@@ -22,6 +22,7 @@ namespace WpfApp_WorkRegister
     {
         public MainWindow()
         {
+
             InitializeComponent();
         }
     }
