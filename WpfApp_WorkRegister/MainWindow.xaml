@@ -8,12 +8,13 @@
         Title="MainWindow" Height="478" Width="334">
     <Grid Margin="0,0,0,-4">
         <TextBox HorizontalAlignment="Left" Margin="60,31,0,0" Text="User" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
-        <Border  BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="25" Margin="60,90,0,0" VerticalAlignment="Top" Width="129"/>
-        <Button Content="Start/Stop" HorizontalAlignment="Left" Margin="60,151,0,0" VerticalAlignment="Top" Width="129"/>
-        <TextBlock HorizontalAlignment="Left" Height="18" Margin="63,72,0,0" Text="Часы" TextWrapping="Wrap" VerticalAlignment="Top" Width="123"/>
+        <Border  BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="25" Margin="60,149,0,0" VerticalAlignment="Top" Width="129"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="60,95,0,0" VerticalAlignment="Top" Width="53" RenderTransformOrigin="1.329,2.59"/>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="60,126,0,0" Text="Прошло времени с начала работы" TextWrapping="Wrap" VerticalAlignment="Top" Width="206"/>
         <TextBlock HorizontalAlignment="Left" Margin="63,196,0,0" Text="Log" TextWrapping="Wrap" VerticalAlignment="Top" Height="22" Width="77"/>
         <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="103" Margin="60,218,0,0" VerticalAlignment="Top" Width="242"/>
         <TextBox HorizontalAlignment="Left" Height="21" Margin="60,352,0,0" Text="file.txt" TextWrapping="Wrap" VerticalAlignment="Top" Width="239"/>
         <Button Content="Сохранить" HorizontalAlignment="Left" Height="21" Margin="215,392,0,0" VerticalAlignment="Top" Width="84"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="167,95,0,0" VerticalAlignment="Top" Width="52"/>
     </Grid>
 </Window>
